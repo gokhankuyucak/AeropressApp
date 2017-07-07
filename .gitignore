@@ -5,6 +5,9 @@
 *.sw[mnpcod]
 *.log
 *.tmp
+config.xml
+ionic.config.json
+tsconfig.json
 *.tmp.*
 log.txt
 *.sublime-project
@@ -24,6 +27,7 @@ temp/
 hooks/
 platforms/
 plugins/
+resources/
 plugins/android.json
 plugins/ios.json
 www/
