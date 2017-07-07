@@ -1,0 +1,446 @@
+[{
+    "name": "Standard Method",
+    "imgUrl": "assets/image/Aeropress.svg",
+    "duration": "1:45",
+    "steps": [{
+        "id": "1",
+        "stepName": "Step 1",
+        "hasTimer": "false",
+        "description": "brew coffee"
+      },
+      {
+        "id": "2",
+        "stepName": "Step 2",
+        "hasTimer": "true",
+        "duration": "5",
+        "description": "brew coffee description 30 seconds stir"
+      }
+    ]
+  },
+  {
+    "name": "Nick Hatch",
+    "imgUrl": "assets/image/Aeropress.svg",
+    "duration": "1:45",
+    "steps": [{
+        "id": "1",
+        "name": "Grind",
+        "hasTimer": "false",
+        "description": "Grind coffee at ''17'' on a Baratza Virtuoso grinder"
+      },
+      {
+        "id": "2",
+        "name": "Heat Water",
+        "hasTimer": "false",
+        "description": "Heat water to 85°C"
+      },
+      {
+        "id": "3",
+        "name": "Add Water",
+        "hasTimer": "false",
+        "description": "Add 50-60g of water"
+      },
+      {
+        "id": "4",
+        "name": "Stir",
+        "hasTimer": "false",
+        "description": "Stir five times"
+      },
+      {
+        "id": "5",
+        "name": "Bloom",
+        "hasTimer": "true",
+        "duration": "25",
+        "description": "Allow 25 seconds of bloom"
+      },
+      {
+        "id": "6",
+        "name": "Add Water",
+        "hasTimer": "true",
+        "duration": "20",
+        "description": "Add the rest of the water in 20 seconds"
+      },
+      {
+        "id": "7",
+        "name": "Press",
+        "hasTimer": "true",
+        "duration": "60",
+        "description": "Press down for 60 seconds, into a chilled cup"
+      }
+    ]
+  },
+  {
+    "name": "Jeff Verellen",
+    "imgUrl": "assets/image/Aeropress.svg",
+    "duration": "2:00",
+    "steps": [{
+        "id": "1",
+        "name": "Coffee",
+        "hasTimer": "false",
+        "description": "Pick out all coffee beans that are pale, too big, too small or ear-shaped."
+      },
+      {
+        "id": "2",
+        "name": "Grind",
+        "hasTimer": "false",
+        "description": "Grind coffee at '8' on a Malkoenig EK43"
+      },
+      {
+        "id": "3",
+        "name": "Filter",
+        "hasTimer": "false",
+        "description": "Tip ground coffee into a Sowden Softbrew filter"
+      },
+      {
+        "id": "4",
+        "name": "Stir",
+        "hasTimer": "false",
+        "description": "Bang and shake the filter to get rid of the super-fines (You can also lose some of the chaff this way)"
+      },
+      {
+        "id": "5",
+        "name": "Water",
+        "hasTimer": "false",
+        "description": "Add around 40g of water at 82°C, being sure to wet all the grounds evenly"
+      },
+      {
+        "id": "6",
+        "name": "Bloom",
+        "hasTimer": "true",
+        "duration": "30",
+        "description": "Allow to bloom for 30 seconds - shake lightly there are dry spots"
+      },
+      {
+        "id": "7",
+        "name": "Water",
+        "hasTimer": "true",
+        "duration": "60",
+        "description": "Add 230g of water at 76°C in an extremely slow pour: it should take 60 seconds"
+      },
+      {
+        "id": "8",
+        "name": "Press",
+        "hasTimer": "true",
+        "duration": "30",
+        "description": "Press down gently for 30 seconds"
+      },
+      {
+        "id": "9",
+        "name": "Leave",
+        "hasTimer": "false",
+        "description": "Leave about 50g of slurry in the AeroPress"
+      }
+    ]
+  },
+  {
+    "name": "Lukas Zahradnik",
+    "imgUrl": "assets/image/Aeropress.svg",
+    "duration": "1:35",
+    "steps": [{
+        "id": "1",
+        "name": "Coffee",
+        "hasTimer": "false",
+        "description": "Grind coffee at 7.3 on a Malkoenig EK43"
+      },
+      {
+        "id": "2",
+        "name": "Water",
+        "hasTimer": "false",
+        "description": "Heat water to 79°C"
+      },
+      {
+        "id": "3",
+        "name": "Add Water",
+        "hasTimer": "false",
+        "description": "Add 60g of water"
+      },
+      {
+        "id": "4",
+        "name": "Stir",
+        "hasTimer": "true",
+        "duration":"15",
+        "description": "Turbulent wiggle for 15 seconds"
+      },
+      {
+        "id": "5",
+        "name": "Bloom",
+        "hasTimer": "true",
+        "duration":"30",
+        "description": "Allow 30 seconds of bloom"
+      },
+      {
+        "id": "6",
+        "name": "Water",
+        "hasTimer": "true",
+        "duration": "10",
+        "description": "Add the rest of the water in 10 seconds"
+      },
+      {
+        "id": "7",
+        "name": "Press",
+        "hasTimer": "true",
+        "duration": "45",
+        "description": "Press down for 45 seconds"
+      }
+    ]
+  }
+  ,
+  {
+    "name": "Kaye Joy Ong",
+    "imgUrl": "assets/image/Aeropress.svg",
+    "duration": "1:35",
+    "steps": [{
+        "id": "1",
+        "name": "Coffee",
+        "hasTimer": "false",
+        "description": "Grind coffee at 4 on a Malkoenig EK43"
+      },
+      {
+        "id": "2",
+        "name": "Water",
+        "hasTimer": "false",
+        "description": "Heat water to 79°C"
+      },
+      {
+        "id": "3",
+        "name": "Add Water",
+        "hasTimer": "false",
+        "description": "Add 56g of water"
+      },
+      {
+        "id": "4",
+        "name": "Bloom",
+        "hasTimer": "true",
+        "duration":"30",
+        "description": "Allow 30 seconds of bloom"
+      },
+      {
+        "id": "5",
+        "name": "Water",
+        "hasTimer": "true",
+        "duration":"30",
+        "description": "Add the rest of the water in 60 seconds"
+      },
+      {
+        "id": "6",
+        "name": "Press",
+        "hasTimer": "true",
+        "duration": "10",
+        "description": "Press down for 30 seconds"
+      }
+    ]
+  },
+  {
+    "name": "Shuichi Sasaki",
+    "imgUrl": "assets/image/Aeropress.svg",
+    "duration": "1:40",
+    "steps": [{
+        "id": "1",
+        "name": "Coffee",
+        "hasTimer": "false",
+        "description": "Grind coffee at 9.5 on a Malkoenig EK43"
+      },
+      {
+        "id": "2",
+        "name": "Rinse",
+        "hasTimer": "false",
+        "description": "Rinse paper filer with warm water"
+      },
+      {
+        "id": "3",
+        "name": "Water",
+        "hasTimer": "false",
+        "description": "Heat water to 78°C"
+      },
+      {
+        "id": "4",
+        "name": "Add Water",
+        "hasTimer": "false",
+        "description": "Add 40g of water"
+      },
+      {
+        "id": "5",
+        "name": "Bloom",
+        "hasTimer": "true",
+        "duration":"25",
+        "description": "Allow 25 seconds of bloom"
+      },
+      {
+        "id": "6",
+        "name": "false",
+        "hasTimer": "false",
+        "description": "Stir five times"
+      },
+      {
+        "id": "7",
+        "name": "Press",
+        "hasTimer": "false",
+        "description": "Add 210g of water and stir once"
+      },
+      {
+        "id": "8",
+        "name": "Press",
+        "hasTimer": "true",
+        "duration":"25",
+        "description": "Press down very slowly for 75 seconds"
+      },
+      {
+        "id": "9",
+        "name": "Slurry",
+        "hasTimer": "false",
+        "description": "Leave 45g of slurry in the AeroPress"
+      }
+    ]
+  },
+  {
+    "name": "Martin Karabinos",
+    "imgUrl": "assets/image/Aeropress.svg",
+    "duration": "3:30",
+    "steps": [{
+        "id": "1",
+        "name": "Coffee",
+        "hasTimer": "false",
+        "description": "Grind coffee at 6.2 on a Malkoenig EK43"
+      },
+      {
+        "id": "2",
+        "name": "Water",
+        "hasTimer": "false",
+        "description": "Heat some water to 35°C, the rest to 92°C"
+      },
+      {
+        "id": "3",
+        "name": "Add Water",
+        "hasTimer": "false",
+        "description": "Add 80g of water at 35°C"
+      },
+      {
+        "id": "4",
+        "name": "Stir",
+        "hasTimer": "true",
+        "duration":"300",
+        "description": "Stir well, close the AeroPress and leave for three minutes seconds"
+      },
+      {
+        "id": "5",
+        "name": "Bloom",
+        "hasTimer": "false",
+        "description": "Add 135g of water at 92°C"
+      },
+      {
+        "id": "6",
+        "name": "Water",
+        "hasTimer": "false",
+        "description": "Stir once"
+      },
+      {
+        "id": "7",
+        "name": "Press",
+        "hasTimer": "true",
+        "duration": "30",
+        "description": "Press down slowly for 30 seconds"
+      }
+    ]
+  },
+  {
+    "name": "Matt Scottoline",
+    "imgUrl": "assets/image/Aeropress.svg",
+    "duration": "1:39",
+    "steps": [{
+        "id": "1",
+        "name": "Coffee",
+        "hasTimer": "false",
+        "description": "Grind the coffee pretty fine and fill the Aeropress"
+      },
+      {
+        "id": "2",
+        "name": "Water",
+        "hasTimer": "false",
+        "description": "Add the 230g of water to the coffee, and cap the top with the plunger to seal it and prevent dripping"
+      },
+      {
+        "id": "3",
+        "name": "Bloom",
+        "hasTimer": "false",
+        "description": "Allow 60 seconds of bloom"
+      },
+      {
+        "id": "4",
+        "name": "Stir",
+        "hasTimer": "false",
+        "description": "Stir a few times"
+      },
+      {
+        "id": "5",
+        "name": "Press",
+        "hasTimer": "true",
+        "duration":"30",
+        "description": "Press down slowly for 30 seconds"
+      }
+    ]
+  },
+  {
+    "name": "Jarboe",
+    "imgUrl": "assets/image/Aeropress.svg",
+    "duration": "4:00",
+    "steps": [{
+        "id": "1",
+        "name": "Coffee",
+        "hasTimer": "false",
+        "description": "Grind coffee at 4.5 on a Handground"
+      },
+      {
+        "id": "2",
+        "name": "Filter",
+        "hasTimer": "false",
+        "description": "Use two paper filters to increase clarity in the cup. "
+      },
+      {
+        "id": "3",
+        "name": "Add Water",
+        "hasTimer": "false",
+        "description": "Add 30g of water at 93°C"
+      },
+      {
+        "id": "4",
+        "name": "Stir",
+        "hasTimer": "true",
+        "duration":"30",
+        "description": "Allow 30 seconds of bloom"
+      },
+      {
+        "id": "5",
+        "name": "Water",
+        "hasTimer": "false",
+        "description": "Add 240g water"
+      },
+      {
+        "id": "6",
+        "name": "Bloom",
+        "hasTimer": "true",
+        "duration": "90",
+        "description": "Allow 90 seconds of bloom"
+      },
+       {
+        "id": "7",
+        "name": "Stir",
+        "hasTimer": "false",
+        "description": " Two more gentle back-and-forth stirs and place on your plunger. "
+      },
+       {
+        "id": "8",
+        "name": "Bloom",
+        "hasTimer": "true",
+        "duration": "90",
+        "description": "Allow 90 seconds of bloom"
+      },
+      {
+        "id": "7",
+        "name": "Press",
+        "hasTimer": "true",
+        "duration":"60",
+        "description": "Press down slowly for 60 seconds"
+      }
+    ]
+  }
+
+]

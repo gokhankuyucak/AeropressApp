@@ -1,0 +1,37 @@
+page-home {
+  html,
+  body,
+  .scroll/* because the <ion-content> content is placed inside a div.scroll */
+  {
+    color: color($colors, coffee_light);
+  }
+  .row {
+    padding: 0px !important;
+  }
+  .col-alt:nth-child(even) {
+    background-color: color($colors, coffee_dark);
+  }
+  ion-card {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    color: color($colors, coffee_light);
+    cursor: pointer;
+  }
+  .card-title {
+    color: color($colors, coffee_light);
+  }
+  .col {
+    height: 33.33vh;
+    text-align: center;
+    position: relative;
+    top: 50%;
+  }
+  .col-alt:nth-child(odd) {
+        background-color: color($colors, coffee);
+  }
+}
+
+.swiper-pagination-bullet-active {
+  background: color($colors, coffee_light);
+}

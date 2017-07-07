@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>AeroPress Recipes</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+  <ion-grid *ngIf="recipeList">
+    <ion-row center class="row">
+      <ion-col col-4 class="col col-alt" *ngFor="let recipe of recipeList">
+
+        <ion-card type="button" (click)="viewItem(recipe)">
+          <ion-avatar item-start>
+            <img src="assets/image/Aeropress_avatar.png">
+          </ion-avatar>
+          <ion-card-title> {{ recipe.name }}</ion-card-title>
+          <ion-card-content>{{ recipe.duration }}</ion-card-content>
+        </ion-card>
+
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
