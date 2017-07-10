@@ -4,24 +4,39 @@ page-recipe-detail {
     background-size: 205% 100%;
     background-position: 99% 0%;
     transition: all 10s linear;
-    padding-bottom:15px;
-    padding-left:10px;
+    padding-left: 10px;
+    margin-top: 15px;
+    min-height: 100%;
+    height: 100%;
   }
   .recipe-transitionAnimate {
     outline: none;
     background-position: 0% 100%;
-    color: #000;
-
+    color: color($colors, coffee_light);
+    min-height: 100%;
+    height: 100%;
+  }
+  .item-md {
+    padding-left: 7px;
+  }
+  .label-md {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    min-height: 100%;
+    height: 100%;
   }
   .item {
-    background: linear-gradient(to right,  color($colors, coffee) 50%, color($colors, coffee_light) 50%);
+    background: linear-gradient(to right, color($colors, coffee) 50%, color($colors, coffee_light) 50%);
     background-size: 205% 100%;
     background-position: 99% 0%;
-    background-color: #E3E2CA;
-
+    background-color: color($colors, coffee_light);
+    left: 0px;
+  }
+  .list-md .item-block .item-inner {
+    border-bottom: 0px;
   }
   .col-end {
-    background-color:  color($colors, coffee);
+    background-color: color($colors, coffee);
     text-align: center;
   }
   .category-marker {
@@ -29,6 +44,6 @@ page-recipe-detail {
     height: 100%;
     width: 7px;
     left: 0px;
-    background-color:  color($colors, coffee);
+    background-color: color($colors, coffee);
   }
 }
