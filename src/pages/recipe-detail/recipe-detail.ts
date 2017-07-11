@@ -13,7 +13,6 @@ import { Recipe, Step } from '../../providers/recipe/recipe.model';
   templateUrl: 'recipe-detail.html',
 })
 export class RecipeDetailPage {
-  // @ViewChild('itemlist') itemlist:ElementRef;
   recipe: Recipe;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
     this.recipe = this.navParams.get('recipe');
@@ -21,7 +20,6 @@ export class RecipeDetailPage {
   }
 
   startTimer(step: Step) {
-    //this.itemlist.nativeElement.className +=" recipe-transitionAnimate";
 
 
     if (step.hasTimer == "true") {

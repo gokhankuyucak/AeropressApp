@@ -10,8 +10,35 @@
   </ion-navbar>
 </ion-header>
 <ion-content *ngIf="recipe">
+  <ion-card>
+    <ion-card-content *ngIf="recipe.info">
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <p><b>Coffee:</b>
+              <span>{{recipe.info.coffee}}</span></p>
+          </ion-col>
+          <ion-col>
+            <p><b>Water:</b>
+              <span>{{recipe.info.water}}</span></p>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <p><b>Brewer:</b>
+              <span>{{recipe.info.brewer}}</span></p>
+          </ion-col>
+          <ion-col>
+            <p><b>Filter:</b>
+              <span>{{recipe.info.filter}}</span></p>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-card-content>
+
+  </ion-card>
   <ion-list>
-    <ion-item *ngFor="let step of recipe.steps">
+    <ion-item *ngFor="let step of recipe.steps" text-wrap>
       <div class="recipe-transition" #elem [attr.id]="step.id">
         <div class="category-marker"></div>
         {{step.description}}
@@ -19,7 +46,7 @@
           <ion-icon name="timer"></ion-icon>
           {{step.duration}}
         </ion-note>
-       
+
       </div>
       <button ion-button outline item-end (click)="startTimer(step)" *ngIf="step.duration" color="dark"> <ion-icon name="timer"></ion-icon> Start</button>
     </ion-item>

@@ -1,6 +1,6 @@
 [{
     "name": "Standard Method",
-    "imgUrl": "assets/image/Aeropress.svg",
+    "imgUrl": "assets/image/aeropress.png",
     "duration": "1:45",
     "steps": [{
         "id": "1",
@@ -13,14 +13,20 @@
         "stepName": "Step 2",
         "hasTimer": "true",
         "duration": "5",
-        "description": "brew coffee description 30 seconds stir"
+        "description": "brew coffee description 30 seconds stir this is a long string to test wrapping in mobile"
       }
     ]
   },
   {
     "name": "Nick Hatch",
-    "imgUrl": "assets/image/Aeropress.svg",
+    "imgUrl": "assets/image/aeropress_inverted.png",
     "duration": "1:45",
+    "info": {
+      "coffee": "17.5g",
+      "water": "260g @85°C",
+      "brewer": "Upright",
+      "filter": "Paper"
+    },
     "steps": [{
         "id": "1",
         "name": "Grind",
@@ -70,8 +76,14 @@
   },
   {
     "name": "Jeff Verellen",
-    "imgUrl": "assets/image/Aeropress.svg",
+    "imgUrl": "assets/image/aeropress_inverted.png",
     "duration": "2:00",
+    "info": {
+      "coffee": "17.5g",
+      "water": "270g Spa Blue mineral water @ 82°C / 76°C",
+      "brewer": "Inverted",
+      "filter": "Paper"
+    },
     "steps": [{
         "id": "1",
         "name": "Coffee",
@@ -133,8 +145,14 @@
   },
   {
     "name": "Lukas Zahradnik",
-    "imgUrl": "assets/image/Aeropress.svg",
+    "imgUrl": "assets/image/aeropress_inverted.png",
     "duration": "1:35",
+    "info": {
+      "coffee": "20g",
+      "water": "230g @ 79°C",
+      "brewer": "Inverted",
+      "filter": "Paper"
+    },
     "steps": [{
         "id": "1",
         "name": "Coffee",
@@ -157,14 +175,14 @@
         "id": "4",
         "name": "Stir",
         "hasTimer": "true",
-        "duration":"15",
+        "duration": "15",
         "description": "Turbulent wiggle for 15 seconds"
       },
       {
         "id": "5",
         "name": "Bloom",
         "hasTimer": "true",
-        "duration":"30",
+        "duration": "30",
         "description": "Allow 30 seconds of bloom"
       },
       {
@@ -182,12 +200,17 @@
         "description": "Press down for 45 seconds"
       }
     ]
-  }
-  ,
+  },
   {
     "name": "Kaye Joy Ong",
-    "imgUrl": "assets/image/Aeropress.svg",
+    "imgUrl": "assets/image/aeropress_inverted.png",
     "duration": "1:35",
+    "info": {
+      "coffee": "22.5g",
+      "water": "280g @ 79°C",
+      "brewer": "Inverted",
+      "filter": "Paper"
+    },
     "steps": [{
         "id": "1",
         "name": "Coffee",
@@ -210,14 +233,14 @@
         "id": "4",
         "name": "Bloom",
         "hasTimer": "true",
-        "duration":"30",
+        "duration": "30",
         "description": "Allow 30 seconds of bloom"
       },
       {
         "id": "5",
         "name": "Water",
         "hasTimer": "true",
-        "duration":"30",
+        "duration": "30",
         "description": "Add the rest of the water in 60 seconds"
       },
       {
@@ -231,8 +254,14 @@
   },
   {
     "name": "Shuichi Sasaki",
-    "imgUrl": "assets/image/Aeropress.svg",
+    "imgUrl": "assets/image/aeropress.png",
     "duration": "1:40",
+    "info": {
+      "coffee": "16.5g",
+      "water": "250g soft mineral water @ 78°C",
+      "brewer": "Upright",
+      "filter": "Paper"
+    },
     "steps": [{
         "id": "1",
         "name": "Coffee",
@@ -261,7 +290,7 @@
         "id": "5",
         "name": "Bloom",
         "hasTimer": "true",
-        "duration":"25",
+        "duration": "25",
         "description": "Allow 25 seconds of bloom"
       },
       {
@@ -280,7 +309,7 @@
         "id": "8",
         "name": "Press",
         "hasTimer": "true",
-        "duration":"25",
+        "duration": "25",
         "description": "Press down very slowly for 75 seconds"
       },
       {
@@ -293,8 +322,14 @@
   },
   {
     "name": "Martin Karabinos",
-    "imgUrl": "assets/image/Aeropress.svg",
+    "imgUrl": "assets/image/aeropress.png",
     "duration": "3:30",
+    "info": {
+      "coffee": "18.5g",
+      "water": "215g @ 35°C & 92°C",
+      "brewer": "Upright",
+      "filter": "Paper"
+    },
     "steps": [{
         "id": "1",
         "name": "Coffee",
@@ -317,7 +352,7 @@
         "id": "4",
         "name": "Stir",
         "hasTimer": "true",
-        "duration":"300",
+        "duration": "300",
         "description": "Stir well, close the AeroPress and leave for three minutes seconds"
       },
       {
@@ -343,8 +378,14 @@
   },
   {
     "name": "Matt Scottoline",
-    "imgUrl": "assets/image/Aeropress.svg",
+    "imgUrl": "assets/image/aeropress.png",
     "duration": "1:39",
+     "info": {
+      "coffee": "17g",
+      "water": "230g  93°C",
+      "brewer": "Upright",
+      "filter": "Paper"
+    },
     "steps": [{
         "id": "1",
         "name": "Coffee",
@@ -373,15 +414,21 @@
         "id": "5",
         "name": "Press",
         "hasTimer": "true",
-        "duration":"30",
+        "duration": "30",
         "description": "Press down slowly for 30 seconds"
       }
     ]
   },
   {
     "name": "Jarboe",
-    "imgUrl": "assets/image/Aeropress.svg",
+    "imgUrl": "assets/image/aeropress.png",
     "duration": "4:00",
+     "info": {
+      "coffee": "15g",
+      "water": "240g 93°C",
+      "brewer": "Upright",
+      "filter": "2 Paper"
+    },
     "steps": [{
         "id": "1",
         "name": "Coffee",
@@ -404,7 +451,7 @@
         "id": "4",
         "name": "Stir",
         "hasTimer": "true",
-        "duration":"30",
+        "duration": "30",
         "description": "Allow 30 seconds of bloom"
       },
       {
@@ -420,13 +467,13 @@
         "duration": "90",
         "description": "Allow 90 seconds of bloom"
       },
-       {
+      {
         "id": "7",
         "name": "Stir",
         "hasTimer": "false",
         "description": " Two more gentle back-and-forth stirs and place on your plunger. "
       },
-       {
+      {
         "id": "8",
         "name": "Bloom",
         "hasTimer": "true",
@@ -437,7 +484,7 @@
         "id": "7",
         "name": "Press",
         "hasTimer": "true",
-        "duration":"60",
+        "duration": "60",
         "description": "Press down slowly for 60 seconds"
       }
     ]

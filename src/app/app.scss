@@ -1,6 +1,4 @@
 // http://ionicframework.com/docs/v2/theming/
-
-
 // App Global Sass
 // --------------------------------------------------
 // Put style rules here that you want to apply globally. These
@@ -14,15 +12,19 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
-$colors: (
- coffee:#6F6856,
- coffee_light:#E3E2CA,
- coffee_dark:#403A2E,
- dark:       #6F6856,
-);
-ion-avatar img  {
-width:100% !important;
-height : 100% !important;
-max-width: 50px !important;  //any size
-max-height: 50px !important; //any size
+$colors: ( 
+    coffee:#6F6856, 
+    coffee_light:#E3E2CA, 
+    coffee_dark:#403A2E, 
+    dark : #6F6856
+     );
+ion-avatar img {
+  width: auto !important;
+  height: auto !important;
+  max-width: 100% !important; //any size
+  max-height: 100% !important; //any size
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }

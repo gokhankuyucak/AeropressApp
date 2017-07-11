@@ -19,6 +19,7 @@ page-home {
     cursor: pointer;
   }
   .card-title {
+    padding-top: 3vh;
     color: color($colors, coffee_light);
   }
   .col {
@@ -28,7 +29,7 @@ page-home {
     top: 50%;
   }
   .col-alt:nth-child(odd) {
-        background-color: color($colors, coffee);
+    background-color: color($colors, coffee);
   }
 }
 

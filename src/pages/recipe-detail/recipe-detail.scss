@@ -1,4 +1,10 @@
 page-recipe-detail {
+  .scroll-content {
+     background-color: color($colors, coffee_light) !important;
+  }
+  .card-md{
+     background-color: color($colors, coffee_light) !important;
+  }
   .recipe-transition {
     background: linear-gradient(to right, color($colors, coffee) 50%, color($colors, coffee_light) 50%);
     background-size: 205% 100%;
@@ -25,12 +31,19 @@ page-recipe-detail {
     min-height: 100%;
     height: 100%;
   }
+  .label {
+    min-height: 100%;
+    height: 100%;
+  }
   .item {
     background: linear-gradient(to right, color($colors, coffee) 50%, color($colors, coffee_light) 50%);
     background-size: 205% 100%;
     background-position: 99% 0%;
     background-color: color($colors, coffee_light);
     left: 0px;
+  }
+  .back-button {
+    color: color($colors, coffee_dark);
   }
   .list-md .item-block .item-inner {
     border-bottom: 0px;
@@ -46,4 +59,5 @@ page-recipe-detail {
     left: 0px;
     background-color: color($colors, coffee);
   }
+
 }

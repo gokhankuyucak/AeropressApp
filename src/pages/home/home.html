@@ -9,10 +9,10 @@
       <ion-col col-4 class="col col-alt" *ngFor="let recipe of recipeList">
 
         <ion-card type="button" (click)="viewItem(recipe)">
-          <ion-avatar item-start>
-            <img src="assets/image/Aeropress_avatar.png">
+          <ion-avatar>
+            <img src="{{recipe.imgUrl}}"/>
           </ion-avatar>
-          <ion-card-title> {{ recipe.name }}</ion-card-title>
+          <ion-card-title text-wrap> {{ recipe.name }}</ion-card-title>
           <ion-card-content>{{ recipe.duration }}</ion-card-content>
         </ion-card>
 
