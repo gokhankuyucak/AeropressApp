@@ -6,16 +6,12 @@
 <ion-content>
   <ion-grid *ngIf="recipeList">
     <ion-row center class="row">
-      <ion-col col-4 class="col col-alt" *ngFor="let recipe of recipeList">
-
+      <ion-col col-6 class="col col-alt" *ngFor="let recipe of recipeList">
         <ion-card type="button" (click)="viewItem(recipe)">
-          <ion-avatar>
-            <img src="{{recipe.imgUrl}}"/>
-          </ion-avatar>
+          <ion-avatar><img src="{{recipe.imgUrl}}" /></ion-avatar>
           <ion-card-title text-wrap> {{ recipe.name }}</ion-card-title>
           <ion-card-content>{{ recipe.duration }}</ion-card-content>
         </ion-card>
-
       </ion-col>
     </ion-row>
   </ion-grid>

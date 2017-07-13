@@ -4,12 +4,16 @@ page-home {
   .scroll/* because the <ion-content> content is placed inside a div.scroll */
   {
     color: color($colors, coffee_light);
+  
   }
   .row {
     padding: 0px !important;
   }
-  .col-alt:nth-child(even) {
+  .col-alt:nth-child(4n+2),.col-alt:nth-child(4n+3){
     background-color: color($colors, coffee_dark);
+  }
+  .col-alt:nth-child(4n+1), .col-alt:nth-child(4n+4) {
+    background-color: color($colors, coffee);
   }
   ion-card {
     display: inline;
@@ -21,18 +25,18 @@ page-home {
   .card-title {
     padding-top: 3vh;
     color: color($colors, coffee_light);
+    font-size: 2.8vh;
   }
   .col {
-    height: 33.33vh;
+    height: 30vh;
     text-align: center;
     position: relative;
     top: 50%;
   }
-  .col-alt:nth-child(odd) {
-    background-color: color($colors, coffee);
-  }
-}
 
-.swiper-pagination-bullet-active {
+  .swiper-pagination-bullet-active {
   background: color($colors, coffee_light);
 }
+}
+
+
