@@ -2,18 +2,44 @@
     "name": "Standard Method",
     "imgUrl": "assets/image/aeropress.png",
     "duration": "1:45",
+    "info": {
+      "coffee": "1 AeroPress Scoop",
+      "water": "260g @85°C",
+      "brewer": "Upright",
+      "filter": "Paper"
+    },
     "steps": [{
         "id": "1",
         "stepName": "Step 1",
         "hasTimer": "false",
-        "description": "brew coffee"
+        "description": "Put the desired amount of ground coffee into the chamber (two AeroPress scoops will make one double espresso, one Americano or one latte)."
       },
       {
         "id": "2",
         "stepName": "Step 2",
         "hasTimer": "true",
         "duration": "5",
-        "description": "brew coffee description 30 seconds stir this is a long string to test wrapping in mobile"
+        "description": "Pour the correlating amount of hot water (80ºC  for optimum flavour as anything higher scalds the beans), into the brewing chamber (up to 1 for 1 espresso etc. for a double espresso and for 1 Americano pour up to mark 2)."
+      },
+      {
+        "id": "3",
+        "name": "Add Water",
+        "hasTimer": "true",
+        "duration": "10",
+        "description": "Mix the grinds and water with your stirring paddle for about 10 seconds to assist in pre-infusion."
+      },
+      {
+        "id": "4",
+        "name": "Stir",
+        "hasTimer": "false",
+        "description": "Now wet the rubber seal and insert the plunger into the chamber"
+      },
+      {
+        "id": "5",
+        "name": "Bloom",
+        "hasTimer": "true",
+        "duration": "30",
+        "description": "Apply gentle pressure to the plunger, guiding it down towards the grinds. It should take about 20–30 seconds to reach the bottom."
       }
     ]
   },
@@ -352,7 +378,7 @@
         "id": "4",
         "name": "Stir",
         "hasTimer": "true",
-        "duration": "300",
+        "duration": "180",
         "description": "Stir well, close the AeroPress and leave for three minutes seconds"
       },
       {
@@ -380,7 +406,7 @@
     "name": "Matt Scottoline",
     "imgUrl": "assets/image/aeropress.png",
     "duration": "1:39",
-     "info": {
+    "info": {
       "coffee": "17g",
       "water": "230g  93°C",
       "brewer": "Upright",
@@ -423,7 +449,7 @@
     "name": "Jarboe",
     "imgUrl": "assets/image/aeropress.png",
     "duration": "4:00",
-     "info": {
+    "info": {
       "coffee": "15g",
       "water": "240g 93°C",
       "brewer": "Upright",
@@ -485,6 +511,62 @@
         "name": "Press",
         "hasTimer": "true",
         "duration": "60",
+        "description": "Press down slowly for 60 seconds"
+      }
+    ]
+  },
+  {
+    "name": "Brendon Glidden",
+    "imgUrl": "assets/image/aeropress.png",
+    "duration": "2:15",
+    "info": {
+      "coffee": "14,7g",
+      "water": "250g 96°C",
+      "brewer": "Upright",
+      "filter": "Paper"
+    },
+    "steps": [{
+        "id": "1",
+        "name": "Coffee",
+        "hasTimer": "false",
+        "description": "Grind coffee a finer than 'drip'"
+      },
+      {
+        "id": "2",
+        "name": "Water",
+        "hasTimer": "false",
+        "description": "Add 60ml water"
+      },
+      {
+        "id": "3",
+        "name": "Bloom",
+        "hasTimer": "true",
+        "duration": "30",
+        "description": "Allow 30 seconds of bloom"
+      },
+      {
+        "id": "4",
+        "name": "Add Water",
+        "hasTimer": "false",
+        "description": "Fill the rest of the water"
+      },
+      {
+        "id": "5",
+        "name": "Plunger",
+        "hasTimer": "false",
+        "description": "Cap the plunger"
+      },
+      {
+        "id": "6",
+        "name": "Bloom",
+        "hasTimer": "true",
+        "duration": "75",
+        "description": "Allow 75 seconds of bloom"
+      },
+      {
+        "id": "7",
+        "name": "Press",
+        "hasTimer": "false",
         "description": "Press down slowly for 60 seconds"
       }
     ]
