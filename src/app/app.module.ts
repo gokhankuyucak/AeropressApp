@@ -3,11 +3,13 @@ import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
-
+import { Insomnia } from '@ionic-native/insomnia';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import {RecipeDetailPage} from '../pages/recipe-detail/recipe-detail';
 import { HttpModule } from '@angular/http';
+import { SmartAudioProvider } from '../providers/smart-audio/smart-audio';
+import { NativeAudio } from '@ionic-native/native-audio';
 @NgModule({
   declarations: [
     MyApp,
@@ -28,7 +30,10 @@ import { HttpModule } from '@angular/http';
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    Insomnia,
+    NativeAudio,
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    SmartAudioProvider
   ]
 })
 export class AppModule {}

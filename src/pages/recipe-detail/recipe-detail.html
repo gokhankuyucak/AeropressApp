@@ -48,7 +48,7 @@
         </ion-note>
 
       </div>
-      <button ion-button outline item-end (click)="startTimer(step)" *ngIf="step.duration" color="dark"> <ion-icon name="timer"></ion-icon> Start</button>
+      <button ion-button outline item-end (click)="startTimer(step)" *ngIf="step.duration" color="dark" #elem [attr.id]="'btn_' + step.id"> <ion-icon name="timer"></ion-icon> Start</button>
     </ion-item>
     <ion-item class="col-end">
       <div class="card text-center">{{recipe.duration}}</div>
