@@ -4,10 +4,11 @@ import { HttpModule } from '@angular/http';
 import { RecipeServiceProvider } from '../../providers/recipe/recipe.service';
 import { Recipe } from '../../providers/recipe/recipe.model';
 import { RecipeDetailPage } from '../recipe-detail/recipe-detail';
+import { UtilityProvider } from '../../providers/utility/utility';
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html',
-  providers: [HttpModule, RecipeServiceProvider]
+  providers: [HttpModule, RecipeServiceProvider,UtilityProvider]
 })
 export class HomePage {
   recipeList: Recipe[];
@@ -24,5 +25,7 @@ export class HomePage {
     console.log(this.recipe);
     this.navCtrl.push(RecipeDetailPage, { recipe: recipe });
   }
- 
+  filterTime(seconds:string){
+    return UtilityProvider.filterTime(seconds);
+  }
 }

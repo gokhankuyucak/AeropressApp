@@ -1,5 +1,8 @@
 {
   "name": "AeropressApp",
-  "app_id": "",
-  "type": "ionic-angular"
+  "app_id": "ec68d766",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
 }

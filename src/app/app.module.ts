@@ -7,14 +7,19 @@ import { Insomnia } from '@ionic-native/insomnia';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import {RecipeDetailPage} from '../pages/recipe-detail/recipe-detail';
+import {RecipeTimerPage} from '../pages/recipe-timer/recipe-timer';
 import { HttpModule } from '@angular/http';
 import { SmartAudioProvider } from '../providers/smart-audio/smart-audio';
 import { NativeAudio } from '@ionic-native/native-audio';
+import { UtilityProvider } from '../providers/utility/utility';
+
+
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    RecipeDetailPage
+    RecipeDetailPage,
+    RecipeTimerPage
   ],
   imports: [
     BrowserModule,
@@ -25,7 +30,8 @@ import { NativeAudio } from '@ionic-native/native-audio';
   entryComponents: [
     MyApp,
     HomePage,
-    RecipeDetailPage
+    RecipeDetailPage,
+    RecipeTimerPage
   ],
   providers: [
     StatusBar,
@@ -33,7 +39,8 @@ import { NativeAudio } from '@ionic-native/native-audio';
     Insomnia,
     NativeAudio,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    SmartAudioProvider
+    SmartAudioProvider,
+    UtilityProvider
   ]
 })
 export class AppModule {}

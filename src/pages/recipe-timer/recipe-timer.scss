@@ -1,0 +1,28 @@
+page-recipe-timer {
+  .scroll-content {
+    background-color: color($colors, coffee_light) !important;
+  }
+  .card-md {
+    background-color: color($colors, coffee_light) !important;
+    text-align: center;
+    
+  }
+  #stopWatch {
+    border: 2px solid color($colors, coffee);
+    //border-radius: 50%;
+    height: 30vw;
+    width: 30vw;
+    margin: auto;
+
+    cursor: pointer;
+    text-align: center;
+  }
+  #stopWatch.session.running {
+    border: 2px solid color($colors, coffee_dark);
+    color: color($colors, coffee_light);
+  }
+  #stopWatch.break.running {
+    border: 2px solid #166;
+    color: #28E8EA;
+  }
+}

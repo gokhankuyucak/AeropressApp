@@ -1,7 +1,7 @@
 [{
     "name": "Standard Method",
     "imgUrl": "assets/image/aeropress.png",
-    "duration": "1:45",
+    "duration": "105",
     "info": {
       "coffee": "1 AeroPress Scoop",
       "water": "260g @85°C",
@@ -46,7 +46,7 @@
   {
     "name": "Nick Hatch",
     "imgUrl": "assets/image/aeropress_inverted.png",
-    "duration": "1:45",
+    "duration": "105",
     "info": {
       "coffee": "17.5g",
       "water": "260g @85°C",
@@ -103,7 +103,7 @@
   {
     "name": "Jeff Verellen",
     "imgUrl": "assets/image/aeropress_inverted.png",
-    "duration": "2:00",
+    "duration": "120",
     "info": {
       "coffee": "17.5g",
       "water": "270g Spa Blue mineral water @ 82°C / 76°C",
@@ -172,7 +172,7 @@
   {
     "name": "Lukas Zahradnik",
     "imgUrl": "assets/image/aeropress_inverted.png",
-    "duration": "1:35",
+    "duration": "95",
     "info": {
       "coffee": "20g",
       "water": "230g @ 79°C",
@@ -230,7 +230,7 @@
   {
     "name": "Kaye Joy Ong",
     "imgUrl": "assets/image/aeropress_inverted.png",
-    "duration": "1:35",
+    "duration": "95",
     "info": {
       "coffee": "22.5g",
       "water": "280g @ 79°C",
@@ -281,7 +281,7 @@
   {
     "name": "Shuichi Sasaki",
     "imgUrl": "assets/image/aeropress.png",
-    "duration": "1:40",
+    "duration": "100",
     "info": {
       "coffee": "16.5g",
       "water": "250g soft mineral water @ 78°C",
@@ -349,7 +349,7 @@
   {
     "name": "Martin Karabinos",
     "imgUrl": "assets/image/aeropress.png",
-    "duration": "3:30",
+    "duration": "210",
     "info": {
       "coffee": "18.5g",
       "water": "215g @ 35°C & 92°C",
@@ -405,7 +405,7 @@
   {
     "name": "Matt Scottoline",
     "imgUrl": "assets/image/aeropress.png",
-    "duration": "1:39",
+    "duration": "99",
     "info": {
       "coffee": "17g",
       "water": "230g  93°C",
@@ -428,6 +428,7 @@
         "id": "3",
         "name": "Bloom",
         "hasTimer": "false",
+        "duration": "60",
         "description": "Allow 60 seconds of bloom"
       },
       {
@@ -448,7 +449,7 @@
   {
     "name": "Jarboe",
     "imgUrl": "assets/image/aeropress.png",
-    "duration": "4:00",
+    "duration": "240",
     "info": {
       "coffee": "15g",
       "water": "240g 93°C",
@@ -518,7 +519,7 @@
   {
     "name": "Brendon Glidden",
     "imgUrl": "assets/image/aeropress.png",
-    "duration": "2:15",
+    "duration": "135",
     "info": {
       "coffee": "14,7g",
       "water": "250g 96°C",
@@ -567,6 +568,7 @@
         "id": "7",
         "name": "Press",
         "hasTimer": "false",
+        "duration": "60",
         "description": "Press down slowly for 60 seconds"
       }
     ]

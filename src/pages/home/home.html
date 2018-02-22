@@ -10,7 +10,7 @@
         <ion-card type="button" (click)="viewItem(recipe)">
           <ion-avatar><img src="{{recipe.imgUrl}}" /></ion-avatar>
           <ion-card-title text-wrap> {{ recipe.name }}</ion-card-title>
-          <ion-card-content>{{ recipe.duration }}</ion-card-content>
+          <ion-card-content>{{ filterTime(recipe.duration) }}</ion-card-content>
         </ion-card>
       </ion-col>
     </ion-row>

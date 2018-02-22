@@ -5,9 +5,12 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { SmartAudioProvider } from '../providers/smart-audio/smart-audio';
 import { HomePage } from '../pages/home/home';
 import {RecipeDetailPage} from '../pages/recipe-detail/recipe-detail';
+import {RecipeTimerPage} from '../pages/recipe-timer/recipe-timer';
+
 @Component({
   templateUrl: 'app.html'
 })
+
 export class MyApp {
   rootPage:any = HomePage;
 
@@ -20,5 +23,6 @@ export class MyApp {
        smartAudio.preload('notify', 'assets/audio/notification-sound.mp3');
     });
   }
+  
 }
 
